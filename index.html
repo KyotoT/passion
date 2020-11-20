@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スポーツクラブ Passion</title>
+  <!-- フォント： Noto Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <!-- PC用グローバルナビゲーション -->
+    <nav class="gnav pc-only">
+      <ul class="gnav-ul">
+        <li class="gnav-list"><a href="#about-section">パッション？</a></li>
+        <li class="gnav-list"><a href="#program-section">プログラム</a></li>
+        <li class="gnav-list"><a href="#access-section">アクセス</a></li>
+        <li class="gnav-list logo"><img src="img/logo_navi.png" width="150" alt=""></a></li>
+        <li class="gnav-list experience"><a href="#contact-section">体験予約</a></li>
+        <li class="gnav-list"><a href="#contact-section">お問い合わせ</a></li>
+        <li class="gnav-list gnav-news"><a href="#news-section">お知らせ</a></li>
+      </ul>
+    </nav>
+
+    <!-- スマートフォン用グローバルナビ -->
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#">パッション？</a>
+      <a href="#">プログラム</a>
+      <a href="#">アクセス</a>
+      <a href="#">体験予約</a>
+      <a href="#">お問い合わせ</a>
+      <a href="#">お知らせ</a>
+    </div>
+
+    <button class="openbtn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+  </header>
+
+  <div class="container">
+    <!-- 動画セクション -->
+    <section class="video-section">
+      <video src="img/keyvisual.mp4" controls></video>
+      <div class="video-text">
+        <div class="square"></div>
+        <div class="video-copy">
+          <p><a href="#">
+            楽しみながらボディメイク<br>
+          パッションの魅力はこちら <i class="fas fa-arrow-circle-right"></i>
+        </a>
+          </p>
+        </div>
+        <div class="square"></div>
+      </div>
+    </section>
+
+    <!-- Bannerセクション -->
+    <section class="banner-section">
+      <div class="bxslider banner-box">
+        <div><a href="#"><img src="img/banner/club_banner.jpg"></a></div>
+        <div><a href="#"><img src="img/banner/kanpo.jpg"></a></div>
+        <div><a href="#"><img src="img/banner/bali_mood_plan.jpg"></a></div>
+        <div><a href="#"><img src="img/banner/job_offer.jpg"></a></div>
+        <div><a href="#"><img src="img/banner/kansen_banner.jpg"></a></div>
+      </div>
+    </section>
+
+    <!-- Aboutセクション -->
+    <section class="about-section" id="about-section">
+      <div class="title">
+        <p class="yellow-eng">About</p>
+        <h2>パッション？</h2>
+      </div>
+      <div class="about-body">
+        <div class="about-copy">
+          <h3>ネガティブ"Fly away!"</h3>
+          <p>新型肺炎の流行により、気分が晴れない状況が続いています。<br>
+          ストレスの低減や活力、創造性の向上を運動によって図る、<br>そんなプログラムをパッションでは用意しています。<br>
+          現実とは一歩離れたリゾート感のあるゆったりとした空間をお送りします。
+          </p>
+        </div>
+        <div class="onlyone-img">
+          <div><img src="img/bxslider/01.jpg"></div>
+          <div><img src="img/bxslider/02.jpg"></div>
+          <div><img src="img/bxslider/03.jpg"></div>
+          <div><img src="img/bxslider/04.jpg"></div>
+          <div><img src="img/bxslider/05.jpg"></div>
+        </div>
+      </div><!-- ./about-section -->
+
+    </section>
+
+    <!-- Programセクション -->
+    <section class="program-section" id="program-section">
+      <div class="title">
+        <p class="white-eng">Program</p>
+        <h2>プログラム</h2>
+      </div>
+      <div class="program-body">
+        <!-- オンラインフィットセクション -->
+        <article>
+          <div class="float-right">
+            <div class="program-heading">
+              <h3>オンラインフィット</h3>
+              <p>コロナで脂肪がついたカラダにアプローチ</p>
+            </div>
+              <ul>
+                <li><a href="#">ライブ形式レッスン</a></li>
+                <li><a href="#">パーソナルオンラインレッスン</a></li>
+              </ul>
+          </div>
+          <div class="float-left">
+            <img src="img/program/onlineFit.jpg" alt="">
+          </div>
+          <div class="clearfix"></div>
+        </article>
+
+        <!-- キッズセクション -->
+        <article>
+          <div class="float-left">
+            <div class="program-heading">
+              <h3>キッズ</h3>
+              <p>お子さんの健やかなココロとカラダを育む</p>
+            </div>
+              <ul>
+                <li><a href="#">水泳教室</a></li>
+                <li><a href="#">体操教室</a></li>
+              </ul>
+          </div>
+          <div class="float-right">
+            <img src="img/program/kids.jpg" alt="">
+          </div>
+          <div class="clearfix"></div>
+        </article>
+
+        <!-- メンズヨガセクション -->
+        <article>
+          <div class="float-right">
+            <div class="program-heading">
+              <h3>メンズヨガ</h3>
+              <p>カラダが固い男性を配慮したレッスン</p>
+            </div>
+              <ul>
+                <li><a href="#">溶岩ホットヨガ</a></li>
+                <li><a href="#">イージーヨガ</a></li>
+              </ul>
+          </div>
+          <div class="float-left">
+            <img src="img/program/mens_yoga.jpg" alt="">
+          </div>
+          <div class="clearfix"></div>
+        </article>
+
+        <!-- ママフィットセクション -->
+        <article>
+          <div class="float-left">
+            <div class="program-heading">
+              <h3>ママフィット</h3>
+              <p>妊娠前より"キレイ"を合言葉に</p>
+            </div>
+              <ul>
+                <li><a href="#">有酸素運動による体力アップ</a></li>
+                <li><a href="#">バレエを用いた姿勢改善</a></li>
+              </ul>
+          </div>
+          <div class="float-right">
+            <img src="img/program/mama_fit.jpg" alt="">
+          </div>
+          <div class="clearfix"></div>
+        </article>
+      </div><!-- ./program-body -->
+    </section><!-- Programセクション -->
+
+    <!-- Accessセクション -->
+    <section class="access-section" id="access-section">
+      <div class="title">
+        <p class="yellow-eng">Access</p>
+        <h2>アクセス</h2>
+      </div>
+      <div class="access-body">
+        <p class="gmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3242.748704820711!2d139.7370953!3d35.6339211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188a511ce6668d%3A0xade13f134d4767f8!2z44CSMTA4LTAwNzQg5p2x5Lqs6YO95riv5Yy66auY6Lyq77yT5LiB55uu77yS77yX!5e0!3m2!1sja!2sjp!4v1604650236878!5m2!1sja!2sjp" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </p>
+        <div class="access-right">
+          <p class="access-heading">
+            <i class="fas fa-map-marker-alt"></i> Passion
+          </p>
+          <dl>
+            <dt>〒108-0074</dt>
+            <dd>東京都港区高輪３丁目２７</dd>
+          </dl>
+          <dl>
+            <dt>山手線　高輪ゲートウェイ駅</dt>
+            <dd>徒歩６分</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/place/%E3%80%92108-0074+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA%E9%AB%98%E8%BC%AA%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%97/@35.6339211,139.7370953,17z/data=!4m12!1m6!3m5!1s0x0:0x49b5e0b1fe049ba3!2z6auY6Lyq44Ky44O844OI44Km44Kn44Kk6aeF!8m2!3d35.6355207!4d139.7406809!3m4!1s0x60188a511ce6668d:0xade13f134d4767f8!8m2!3d35.6322413!4d139.7386982"  class="gmap-link">Google Mapで見る</a>
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div><!-- ./access-body -->
+    </section>
+
+    <!-- Newsセクション -->
+    <section class="news-section" id="news-section">
+      <div class="title">
+        <p class="white-eng">News</p>
+        <h2>お知らせ</h2>
+      </div>
+      <div class="news-wrapper">
+        <div class="news-box">
+
+            <a href="#">
+              <p class="news-day">11月20日</p>
+              <div class="news-contents">
+                <img src="img/news/kanpo.jpg" alt="">
+                <h4>大盛況第三弾漢方セミナーが開かれました。</h4>
+              </div>
+            </a>
+        </div>
+        <div class="news-box">
+            <a href="#">
+              <p class="news-day">11月15日</p>
+              <div class="news-contents">
+                <img src="img/news/yoga-outside.jpg" alt="">
+                <h4>芝公園で、ヨガを行いました。</h4>
+              </div>
+            </a>
+        </div>
+        <div class="news-box">
+            <a href="#">
+              <p class="news-day">11月08日</p>
+              <div class="news-contents">
+                <img src="img/news/autumn-picnic.jpg" alt="">
+                <h4>野外スクールー秋の遠足【満員御礼】</h4>
+              </div>
+            </a>
+        </div>
+        <div class="news-box">
+            <a href="#">
+              <p class="news-day">10月28日</p>
+              <div class="news-contents">
+                <img src="img/news/safety.jpg" alt="">
+                <h4>安全・安心の取り組みについて</h4>
+              </div>
+            </a>
+        </div>
+      </div><!-- ./news-wrapper -->
+      <p class="news-link"><a href="#">一覧を見る</a></p>
+    </section>
+  </div><!-- ./container -->
+
+    <!-- フッター -->
+    <div class="page-footer" id="contact-section">
+      <p class="footer-logo"><img src="img/logo.png" alt=""></p>
+      <ul class="form-item">
+        <p class="tel"><i class="fas fa-phone-square fa-2x"></i><span class="phone-number"> 03-0000-0000</span></p>
+        <p class="reception">( 受付時間　平日 9:00 〜 20:00 )</p>
+        <li class="form-box"><a href="#">体験予約フォーム</a></li>
+        <li class="form-box"><a href="#">お問い合わせフォーム</a></li>
+        <p>※ご返信には数日かかる可能性があります。</p>
+      </ul>
+
+      <div class="page-top" id="js-page-top"><i class="fas fa-angle-up"></i></div>
+      <div class="inner">
+        <div class="copyright"><small>Copyright&copy;KAKU. All rights reserved 2020.</small></div>
+      </div>
+    </div><!-- ./page-footer -->
+
+
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
