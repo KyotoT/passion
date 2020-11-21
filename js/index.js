@@ -60,7 +60,7 @@ $(function () {
           });
       } else {
           mainContents.css({
-              background: 'url(../img/bg-img/bg-img.jpg) repeat-x'
+              background: 'url(../img/bg-img/bg-img01.jpg) repeat-x'
 
           });
       }
