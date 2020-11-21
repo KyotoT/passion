@@ -34,3 +34,35 @@ $(function(){
     return false;
   });
 });
+
+
+
+$(function () {
+  $(window).on('scroll', function () {
+        var scrollpx = $(this).scrollTop(); //スクロール量観測
+      var mainContents = $('#contents1');
+      $('#mainContents span').text(scrollpx);
+      if (scrollpx > 4000) {
+          mainContents.css({
+              background: 'url(../img/bg-img/bg-img4.jpg) repeat',
+          });
+      } else if (scrollpx > 3000) {
+          mainContents.css({
+              background: 'url(../img/bg-img/bg-img5.jpg) repeat'
+          });
+      } else if (scrollpx > 2000) {
+          mainContents.css({
+              background: 'url(../img/bg-img/bg-img3.jpg) repeat'
+          });
+      } else if (scrollpx > 1000) {
+          mainContents.css({
+              background: 'url(../img/bg-img/bg-img2.jpg) repeat-x center left'
+          });
+      } else {
+          mainContents.css({
+              background: 'url(../img/bg-img/bg-img.jpg) repeat-x'
+
+          });
+      }
+  });
+  });
