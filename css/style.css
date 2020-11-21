@@ -76,7 +76,7 @@ body{
 /* グローバルナビゲーション
 --------------------------- */
 .gnav{
-  z-index: 999;
+  z-index: 1999;
   background:  #e28731;
   position: fixed;
   top: 0;
