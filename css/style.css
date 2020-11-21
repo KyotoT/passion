@@ -381,28 +381,18 @@ dd{
   margin-top: 30px;
 }
 
-/* 何か変えたい
+/* Parallax
 ----------------------------- */
-/* #contents1{
-  background-image: url(http://placekitten.com/g/800/900);
-}
-#contents2{
-  background-image: url(http://placekitten.com/g/900/800);
-}
-#contents3{
-  background-image: url(http://placekitten.com/g/900/900);
-} */
 .bg-img{
-  width: 100%;
+  /* width: 100%; */
   /* min-height: 800px; */
-  display: table;
+  /* display: table;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; /* 画像をウィンドウサイズにフィット */
-  /* background: url(../img/bg-img.jpg); */
+  background-size: cover; 画像をウィンドウサイズにフィット */
 }
 
 

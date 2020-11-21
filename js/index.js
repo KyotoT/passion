@@ -40,8 +40,8 @@ $(function(){
 $(function () {
   $(window).on('scroll', function () {
         var scrollpx = $(this).scrollTop(); //スクロール量観測
-      var mainContents = $('#contents1');
-      $('#mainContents span').text(scrollpx);
+      var mainContents = $('#mainContents');
+      // $('#mainContents span').text(scrollpx);
       if (scrollpx > 4000) {
           mainContents.css({
               background: 'url(../img/bg-img/bg-img4.jpg) repeat',
